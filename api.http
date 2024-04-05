@@ -16,3 +16,7 @@ Content-Type: application/json
   "name": "Gabriel Vitebo",
   "email": "vitebo2@outlook.com"
 }
+
+###
+
+GET http://localhost:3333/events/937bb4a2-f193-48db-a3b0-9e962980ac63
