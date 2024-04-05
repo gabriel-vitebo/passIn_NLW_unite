@@ -6,3 +6,13 @@ Content-Type: application/json
   "details": "Um Evento de programação",
   "maximumAttendees": 100
 }
+
+###
+
+POST http://localhost:3333/events/cf9287b6-e9d6-48f9-b9f1-c1a9c8a5ec76/attendees
+Content-Type: application/json
+
+{
+  "name": "Gabriel Vitebo",
+  "email": "vitebo@outlook.com"
+}
